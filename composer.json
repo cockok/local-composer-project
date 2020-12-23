@@ -1,0 +1,19 @@
+{
+    "name": "my/composer-project",
+    "description": "composer project",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "repositories": [
+        {
+            "type": "path",
+            "url": "./libs/my-package",
+            "options": {
+                "symlink": false
+            }
+        }
+    ],
+    "require": {
+        "my/package": "dev-master"
+    }
+}

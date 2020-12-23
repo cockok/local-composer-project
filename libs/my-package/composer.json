@@ -1,0 +1,14 @@
+{
+    "name": "my/package",
+    "description": "local package",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require": {},
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "MyPackage\\": "src/"
+        }
+    }
+}
