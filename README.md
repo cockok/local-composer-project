@@ -1,5 +1,7 @@
 # local-composer-project
 
+`composer install` でローカルプロジェクトを利用する
+
 ## Usage
 
 ```sh
